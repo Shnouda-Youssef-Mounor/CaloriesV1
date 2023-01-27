@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bord">
+        <div class="main">
+            <img class="img" onmouseover="changeimg()" onmouseout="changeimgone()" id="img" src="img/1.png" alt="">
+            <p class="msg"> Calculating calories for one fruit ! </p>
+            <div id="txt" class="view"> Please choose vegetables </div>
+            <input type="button" value="Calories" onclick="calocal(),allsum()" class="cal">
+            <div class="vtg">
+                <input type="checkbox" id="tomat" value="tomatoes"><label>Tomatoes</label>
+            </div>
+            <div class="vtg">
+                <input type="checkbox" id="cres" value="watercress"><label>watercress</label>
+            </div>
+            <div class="vtg">
+                <input type="checkbox" id="egg" value="eggplant"><label>eggplant</label>
+            </div>
+            <div class="by">By -> Shnouda Youssef Mounir</div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="goplace">
+            <font class="go">Go</font>
+            <font class="place"><a href="https://github.com/Shnouda-Youssef-Mounor">GitHub</a></font>
+        </div>
+        <div class="goplace">
+            <font class="go">Go</font>
+            <font class="place"><a href="https://www.facebook.com/shnouda.youssef.3">Facebook</a></font>
+        </div>
+        <div class="goplace">
+            <font class="go">Go</font>
+            <font class="place"><a href="https://www.instagram.com/shnoudayoussefmounir/">Instagram</a></font>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
